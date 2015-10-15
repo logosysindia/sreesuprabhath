@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+
+font-family:'Sansation_Bold-webfont';
+src:url('../fonts/Sansation_Bold-webfont.ttf');
+font-style:normal;
+}
+img{border:none;}
+body{ background:url(../images/suprabatha_01.jpg) repeat ; margin:0px; padding:0px; font-family:'Calibri'; font-size:12px; color:#292727;}
+ul ,li,p,h1{list-style:none;  margin:0px; padding:0px;}
+.mainwraper{ width:1000px; margin:0 auto; background:#FFF;}
+.logotitle{width:250px; float:left;}
+.logotitle h1{color:#ed1c24; padding-top:38px; float:left; font-size:30px; clear:right;}
+.subtitle{text-transform:capitalize; color:#ed1c24; letter-spacing:5px; text-align:center;   }
+.logotitle a{text-decoration:none;}
+.clr{clear:both;}
+.header{background: #d1d1d2; /* Old browsers */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #d1d1d2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d1d1d2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#d1d1d2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#d1d1d2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#d1d1d2 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#d1d1d2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1d1d2',GradientType=0 ); /* IE6-9 */
+
+ height:111px;}
+.logo{float:left; margin-left:15px;}
+.availability{float:left; margin-left:15px;  text-align:center}
+#nav{float:right; width:1000px; margin-top:0px; font-family:Sansation_Bold-webfont;}
+#nav ul{list-style:none; margin:0px; padding:0px;}
+#nav ul li{margin:0px; float:left; font-size:11px;}
+#nav ul li a{color:#000; padding:10px 22px; text-decoration:none; display:block; margin:0px 7px; }
+ .home{background:url(../images/suprabatha_home.png) no-repeat 10px;}
+ .about{background:url(../images/suprabatha_about.png) no-repeat 8px;}
+ .Feature{background:url(../images/suprabatha_Feature.png) no-repeat 9px;}
+ .projects{background:url(../images/suprabatha_projects.png) no-repeat 9px;}
+.Contact{background:url(../images/suprabatha_contact.png) no-repeat 9px;}
+.avail{background:url(../images/available.png) no-repeat 9px;}
+.download{background:url(../images/downloads.png) no-repeat 9px;}
+.news{background:url(../images/newspapers.png) no-repeat 9px;}
+.map{background:url(../images/Compass-64.png) no-repeat 9px;}
+.gallery{background:url(../images/gallery%20icon.png) no-repeat 9px;}
+#nav ul li a.current{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/suprabatha_home.png) no-repeat 1px;  color:#FFF; padding:10px 23px; display:block; margin:0px 10px; }
+
+#nav ul li a.currentabout{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/suprabatha_about.png) no-repeat 1px;  color:#FFF;  margin:0px 10px;}
+
+#nav ul li a.currentsailent{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/suprabatha_Feature.png) no-repeat 1px;  color:#FFF;  margin:0px 10px;}
+
+#nav ul li a.currentProjects{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/suprabatha_projects.png) no-repeat 1px;  color:#FFF;  margin:0px 10px;}
+
+#nav ul li a.currentcontact{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/suprabatha_contact.png) no-repeat 0px;  color:#FFF;  margin:0px 10px;}
+
+#nav ul li a.currentmap{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/Compass-64.png) no-repeat 0px;  color:#FFF;  margin:0px 10px;}
+#nav ul li a.currentnews{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/newspapers.png) no-repeat 0px;  color:#FFF;  margin:0px 10px;}
+#nav ul li a.currentdownload{-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px; background:#495677 url(../images/downloads.png) no-repeat 0px;  color:#FFF;  margin:0px 10px;}
+
+.banner{width:1000px;}
+
+
+.content{ padding:10px 10px; text-align:justify; min-height: 380px; }
+.content p{font-size:14px;}
+.content b{color:#f09313;}
+.content span{color:#495677;}
+.content h3{font-family:Sansation_Bold-webfont;   font-size: 21px;}
+.content ul li{ padding:5px;}
+.content ul li a{text-decoration:none; color:#0066FF;}
+.box{width:330px; float:left; margin-right:46px;}
+.box h4{color:#495677; border-bottom:1px solid #f09313; font-family:Sansation_Bold-webfont; font-weight:bold; padding-bottom:5px; font-size:19px;}
+.box2{width:200px; float:right; margin-right:25px;}
+.box2 p{font-family:Sansation_Bold-webfont; font-weight:bold;}
+.box2 h4{color:#495677; border-bottom:1px solid #f09313; font-family:Sansation_Bold-webfont; font-weight:bold; padding-bottom:5px; font-size:19px;}
+
+.box ul {margin:0px; padding:0px; list-style:none;}
+.box ul li{margin:0px; padding:4px 16px; list-style:none; color:#FF9900;}
+.box  p{line-height:20px;}
+.address{background:url(../images/books_06.png) left top no-repeat; padding-left:35px; line-height:20px;}
+.mobile{background:url(../images/contact.png) left top no-repeat; padding-left:35px; line-height:25px;}
+.email{background:url(../images/email.png) left top no-repeat; padding-left:35px; line-height:25px;}
+
+
+
+.footer{background:#495677; padding:8px 0px; text-align:center; color:#FFF; font-size:11px; height:40px;} 
+.footer p{margin:0px; padding:0px;}
+.footer ul{list-style:none; margin:0px; padding:0px; margin-left:280px;}
+.footer ul li{ float:left;  margin:10px; border-right:1px solid #FFF;  padding-right:10px; }
+.footer ul li a{color:#FFF; text-decoration:none;} 
+
+
+div.jqZoomTitle{	z-index:5000;	text-align:center;	font-size:11px;	font-family:Tahoma;	height:16px;	padding-top:2px;	position:relative;	top: 0px;	left: 0px;	width: 100%;	color: #FFF;	background: #999;}
+
+.jqZoomPup{overflow:hidden;background-color: #FFF;	-moz-opacity:0.6;opacity: 0.6;filter: alpha(opacity = 60);z-index:10;border-color:#c4c4c4;border-style: solid;cursor:crosshair;}
+
+.jqZoomPup img{	border: 0px;}
+
+.preload{-moz-opacity:0.8;	opacity: 0.8;   filter: alpha(opacity = 80);	color: #333;	font-size: 12px;	font-family: Tahoma;   text-decoration: none;
+	border: 1px solid #CCC;   background-color: white;   padding: 8px;	text-align:center;   background-image: url(../images/zoomloader.gif); background-repeat: no-repeat;   background-position: 43px 30px;	width:90px;	* width:100px;	height:43px;	*height:55px;	z-index:10;
+	position:absolute;	top:3px;	left:3px;}
+
+.jqZoomWindow{	border: 1px solid #999;	background-color: #FFF;}
